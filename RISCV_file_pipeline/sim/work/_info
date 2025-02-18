@@ -1,0 +1,558 @@
+m255
+K4
+z2
+Z0 !s12c _opt2
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt3
+R1
+R2
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z3 !s12c _opt1
+R1
+R3
+R1
+R3
+R1
+Z4 !s12c _opt
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+!s11f MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z5 d/cal/exterieurs/lkreucher-23/artishow/RISCV_file/sim
+T_opt
+!s110 1713876193
+VCbA]WSZ1cG2m1hjMmkoEz3
+Z6 04 2 4 work tb fast 0
+=1-000ae431a4f1-6627acdf-1c86a-78770
+R1
+Z7 !s12b OEM100
+Z8 !s124 OEM100
+Z9 o-quiet -auto_acc_if_foreign -work work
+Z10 tCvgOpt 0
+n@_opt
+Z11 OL;O;2023.2_1;77
+R5
+T_opt1
+!s110 1713950840
+V:<Rj2]4HTDbok6Xl:dhb=3
+R6
+=1-000ae431a4f1-6628d078-788a8-9e240
+R1
+R7
+R8
+R9
+R10
+n@_opt1
+R11
+R5
+T_opt2
+!s110 1719301055
+VUiFPGjH[]DG]1XLUXYO`Q0
+R6
+=1-000ae431a4f1-667a73bf-85eb3-33059f
+R1
+R7
+R8
+R9
+R10
+n@_opt2
+R11
+R5
+T_opt3
+!s110 1719239622
+Vd>;O8KROkHfZzn?A<=CUm3
+R6
+=1-000ae431a4f1-667983c5-e721b-2d4555
+R1
+R7
+R8
+R9
+R10
+n@_opt3
+R11
+R5
+vDE1_SoC
+Z12 2../ALU.sv|../DE1_SoC.sv|../dec7seg.sv|../decaleurSigned.sv|../decaleur.sv|../decoder.sv|../gene_reset.sv|../programme_counter.sv|../ram.sv|../regs.sv|../RISCV.sv|../rom.sv|../state_machine.sv|../VGA_controller.sv
+Z13 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z14 !s110 1719301641
+!i10b 1
+!s100 gm<cEHGaQldekDZiia47Q3
+IZMb7e>S`jEhBHQ@n?JMz93
+S1
+Z15 d/cal/exterieurs/ryang-23/risc-v/RISCV_file_pipeline/sim
+w1719239317
+8../DE1_SoC.sv
+F../DE1_SoC.sv
+!i122 153
+L0 1 234
+Z16 VDg1SIo80bB@j0V0VzS_@n1
+Z17 OL;L;2023.2_1;77
+r1
+!s85 0
+31
+Z18 !s108 1719301641.000000
+Z19 !s107 ../VGA_controller.sv|../state_machine.sv|../rom.sv|../RISCV.sv|../regs.sv|../ram.sv|../programme_counter.sv|../gene_reset.sv|../decoder.sv|../decaleur.sv|../decaleurSigned.sv|../dec7seg.sv|../DE1_SoC.sv|../ALU.sv|
+Z20 !s90 +acc|../ALU.sv|../DE1_SoC.sv|../dec7seg.sv|../decaleurSigned.sv|../decaleur.sv|../decoder.sv|../gene_reset.sv|../programme_counter.sv|../ram.sv|../regs.sv|../RISCV.sv|../rom.sv|../state_machine.sv|../VGA_controller.sv|
+!i113 0
+Z21 o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R10
+n@d@e1_@so@c
+vdec7seg
+R12
+R13
+R14
+!i10b 1
+!s100 O<3[=Xfo`l?7?@n0HL9G@2
+I^66;=EzS6TI>MDkUNakaT2
+S1
+R15
+w1718196619
+8../dec7seg.sv
+F../dec7seg.sv
+!i122 153
+L0 1 26
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+vdecaleur
+R12
+R13
+R14
+!i10b 1
+!s100 Wn?@TEIa]IB1MR9zUih=W3
+IYU]9Wj;:b1:=fSVah0d5b2
+S1
+R15
+Z22 w1713966021
+8../decaleur.sv
+F../decaleur.sv
+!i122 153
+Z23 L0 1 18
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+vdecaleurSigned
+R12
+R13
+R14
+!i10b 1
+!s100 G]5i@ZllAX;Q`<`E>[;440
+IW:YN`Ac66mc[QV8NXlVnW2
+S1
+R15
+w1717602402
+8../decaleurSigned.sv
+F../decaleurSigned.sv
+!i122 153
+R23
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+ndecaleur@signed
+vdecoder
+R12
+R13
+R14
+!i10b 1
+!s100 :RfL<_iTG=GBLOUM22:MT3
+I^_QY07nQMf@o09XY;4:FD3
+S1
+R15
+w1717598761
+8../decoder.sv
+F../decoder.sv
+!i122 153
+L0 1 217
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+vgene_reset
+R12
+R13
+R14
+!i10b 1
+!s100 ;c=FUdOSl;Oz<j7GSg[Vj0
+I[62U3d3FJIXiIDYaAR10[3
+S1
+R15
+R22
+8../gene_reset.sv
+F../gene_reset.sv
+!i122 153
+L0 1 16
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+vprog_counter
+R12
+R13
+R14
+!i10b 1
+!s100 `b]6GWYmmDRM^42<NT0CY3
+I[`lVgS=z>0@SoJ`nn^J1X1
+S1
+R15
+R22
+8../programme_counter.sv
+F../programme_counter.sv
+!i122 153
+L0 1 15
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+vram
+R12
+R13
+R14
+!i10b 1
+!s100 I4doo[IijD60h9lYUA:iT1
+IS<[GZeg>mR=_e:JhY_Bm61
+S1
+R15
+R22
+8../ram.sv
+F../ram.sv
+!i122 153
+L0 5 77
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+vregs
+R12
+R13
+R14
+!i10b 1
+!s100 fjHF@lQD7lEM0n[idSI>S0
+II2RBidFEcKTmhh7;d:6^d2
+S1
+R15
+R22
+8../regs.sv
+F../regs.sv
+!i122 153
+Z24 L0 1 30
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+vRISCV
+R12
+R13
+R14
+!i10b 1
+!s100 :E^A>jPNUT>3E=8_>eNkQ3
+InBKEzJ0_@H^RSe_l;^8YK2
+S1
+R15
+w1719301040
+8../RISCV.sv
+F../RISCV.sv
+!i122 153
+L0 1 248
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+n@r@i@s@c@v
+vrom
+R12
+R13
+R14
+!i10b 1
+!s100 GGCAmdTkIHnVAnd]g0^U31
+I1VNhXHEilc8Kb^e4:ELYU3
+S1
+R15
+R22
+8../rom.sv
+F../rom.sv
+!i122 153
+R24
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+vstate_machine
+R12
+R13
+R14
+!i10b 1
+!s100 kQZ2VANKAH@@f;H_;D1BV3
+IgC3ED1?^U;K1Q4QnILGic2
+S1
+R15
+w1713966022
+8../state_machine.sv
+F../state_machine.sv
+!i122 153
+L0 1 77
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+vtb
+2tb.sv
+R13
+!s110 1719301681
+!i10b 1
+!s100 TgMiU`nhW3Ye]hY08Lh:92
+IR[zdAJj5o]hdO`^4S@O9m3
+S1
+R15
+R22
+8tb.sv
+Ftb.sv
+!i122 154
+L0 1 80
+R16
+R17
+r1
+!s85 0
+31
+!s108 1719301681.000000
+!s107 tb.sv|
+!s90 +acc|tb.sv|
+!i113 0
+R21
+R10
+vtrue_dual_port_ram_single_clock
+2../framebuffer.v
+!s110 1719236008
+!i10b 1
+!s100 7V^M:zZhPNC4F07Cd6H091
+I3Ii<D18lJ:UelU7Pa7TXR2
+R15
+w1719233483
+8../framebuffer.v
+F../framebuffer.v
+!i122 138
+L0 4 41
+R16
+R17
+r1
+!s85 0
+31
+!s108 1719236008.000000
+!s107 ../framebuffer.v|
+!s90 +acc|../framebuffer.v|
+!i113 0
+R21
+R10
+vuniteArithmetique
+R12
+R13
+R14
+!i10b 1
+!s100 ?n13jPX37hTImoaVd?8_E3
+In4WQb?X1C8d2NMSmWSC?52
+S1
+R15
+w1717598785
+8../ALU.sv
+F../ALU.sv
+!i122 153
+L0 1 67
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+nunite@arithmetique
+vVGA_controller
+R12
+R13
+R14
+!i10b 1
+!s100 :`4523FHL[HC=;227O;5^1
+IUJjHVWoAf45LCYWaEVKZC2
+S1
+R15
+w1719239328
+8../VGA_controller.sv
+F../VGA_controller.sv
+!i122 153
+L0 1 86
+R16
+R17
+r1
+!s85 0
+31
+R18
+R19
+R20
+!i113 0
+R21
+R10
+n@v@g@a_controller

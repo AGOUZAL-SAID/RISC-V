@@ -1,0 +1,36 @@
+m255
+K4
+z2
+!s11f vlog 2023.2_1 2023.05, May 12 2023
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+d/cal/exterieurs/lkreucher-23/artishow/RISCV_file/sim/work
+vtb
+2../tb.sv
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+!s110 1713876828
+!i10b 1
+!s100 TgMiU`nhW3Ye]hY08Lh:92
+Ij9FGU`?U[TLMWhBL`o7Hz2
+S1
+d/cal/exterieurs/ryang-23/risc-v/RISCV_file/sim/work
+w1713876603
+8../tb.sv
+F../tb.sv
+!i122 1
+L0 1 80
+VDg1SIo80bB@j0V0VzS_@n1
+OL;L;2023.2_1;77
+r1
+!s85 0
+31
+!s108 1713876828.000000
+!s107 ../tb.sv|
+!s90 +acc|../tb.sv|
+!i113 0
+o+acc -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+tCvgOpt 0

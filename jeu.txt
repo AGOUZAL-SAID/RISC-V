@@ -1,0 +1,125 @@
+li x1,2147483652  
+li x2,2147483656 
+li x3,2147483660  
+li x4,25750      
+li x5,2147483664 
+li x6,195       
+li x7,145      
+li x8,38600         
+li x9,16777215  
+li x10,1
+li x11,2
+li x12,4
+li x13,8
+li x14,536870912 
+li x17, 1231179110    
+li x18,16777216  
+li x19,65536   
+li x20,255
+li x30,2147483668 
+li x31,65536
+jal x0,blanc
+li x29,2684354560 
+test :
+lw  x15,0(x14)
+li  x16,16777215 
+sw  x15,0(x16)
+beq x15,x10,14
+beq x15,x11,10
+beq x15,x12,6
+beq x15,x13,2
+jal x0, manger
+addi x17,x17,1
+add  x17,x17,x19
+jal  x0,blanc
+addi x17,x17,-1
+sub  x17, x17,x19
+jal  x0,blanc
+addi x17,x17,256
+add  x17,x17,x18
+jal  x0,blanc
+addi x17,x17,-256
+sub  x17,x17,x18
+jal  x0,blanc
+
+
+blanc :
+lw x26,0(x30)
+beq x26,x0,2
+jal x0,-2
+sw x9,0(x3)
+sw x8,0(x1)
+sw x11,0(x5)
+lw x26,0(x30)
+li x26,0
+addi x26,x26,1
+beq x26,x31,2
+jal x0,-2
+sw x20,0(x3)
+sw x17,0(x1)
+sw x11,0(x5)
+li x26,0
+addi x26,x26,1
+beq x26,x31,2
+jal x0,-2
+jal x0, manger
+
+manger:
+
+
+add x21,x4,x0
+slli x21,x21,24 # x pixel
+srli x21,x21,24
+add x22,x4,x0
+srli x22,x22,8 # y pixel
+add x23,x17,x0
+slli x23,x23,8
+srli x23,x23,24  # x0 
+add x24,x0,x17
+srli x24,x24,24  # y0
+add  x25,x0,x17
+slli x25,x25,16
+slri x25,x25,24 # y1
+add x26,x0,x17
+slli x26,x26,24
+srli x26,x26,24 # x1 
+bge  x21,x23,2
+jal  x0, pixel
+blt  x21,x26,2
+jal  x0, pixel
+bge  x22,24,2
+jal x0,pixel
+blt  x22,x25,2
+jal x0,pixel
+addi x17,x17,1
+addi x17,x17,256
+lw   x4 , 0(x29)
+add x21,x4,x0
+slli x21,x21,24 # x pixel
+srli x21,x21,24
+add x22,x4,x0
+srli x22,x22,8 # y pixel
+bge x21,x6,2
+jal x0,4
+addi x4,x4,-100
+addi x21,x0,120
+slli x21,x21,8
+bge x22,x7,2
+jal x0,pixel
+sub x4,x4,x22
+
+
+pixel : 
+
+lw x26,0(x30)
+beq x26,x0,2
+jal x0,-3
+sw x31,0(x3)
+sw x4,0(x2)
+sw x10,0(x5)
+jal x0,test
+
+
+
+
+

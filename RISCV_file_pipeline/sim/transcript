@@ -1,0 +1,49 @@
+# //  Questa Sim-64
+# //  Version 2023.2_1 linux_x86_64 May 12 2023
+# //
+# //  Copyright 1991-2023 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim tb 
+# Start time: 09:48:09 on Jun 25,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading sv_std.std
+# Loading work.tb(fast)
+# Loading work.DE1_SoC(fast)
+# Loading work.gene_reset(fast)
+# Loading work.ram(fast)
+# Loading work.rom(fast)
+# Loading work.dec7seg(fast)
+# Loading work.VGA_controller(fast)
+# Loading work.true_dual_port_ram_single_clock(fast)
+# Loading work.RISCV(fast)
+# Loading work.prog_counter(fast)
+# Loading work.decoder(fast)
+# Loading work.regs(fast)
+# Loading work.uniteArithmetique(fast)
+# Loading work.decaleur(fast)
+# Loading work.decaleurSigned(fast)
+# Loading work.state_machine(fast)
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'we_b'. The port definition is at: ../framebuffer.v(9).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/vga_controller/framebuffer File: ../VGA_controller.sv Line: 75
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'IF'. The port definition is at: ../programme_counter.sv(5).
+#    Time: 0 ns  Iteration: 0  Instance: /tb/dut/riscv/program_counter File: ../RISCV.sv Line: 34
+do /cal/exterieurs/ryang-23/risc-v/RISCV_file_pipeline/sim/pipeline_vga.do
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb/dut/riscv/MemWrite_4'.
+# Executing ONERROR command at macro /cal/exterieurs/ryang-23/risc-v/RISCV_file_pipeline/sim/pipeline_vga.do line 24
+# ** UI-Msg (Warning): (vish-4014) No objects found matching '/tb/dut/riscv/MemWrite_5'.
+# Executing ONERROR command at macro /cal/exterieurs/ryang-23/risc-v/RISCV_file_pipeline/sim/pipeline_vga.do line 25
+# (vsim-4077) Logging very large object: /tb/dut/vga_controller/framebuffer/ram
+run -continue
+run
+run
+run
+# Causality operation skipped due to absence of debug database file

@@ -1,0 +1,61 @@
+PLANNING PROJ104
+
+Suggéré par l’encadrant :
+Février-début Mars 
+apprendre SystemVerilog (à l’aide des TPs notamment)
+Commencer à faire un schéma du RISC-V 5 étages, étage par étage 
+Avril 
+RISC-V R32I 5 étages (sans pipeline) + tests
+1er implémentation FPGA (pas seulement le RISC-V, mais aussi les périphériques, )
+ 
+Juin
+RISC-V R32I pipeline 5étages SystemVerilog + tests 
+Implémentation FPGA + utiliser quelques périphériques
+Coder un assembleur 
+
+Plus précisément… (notre planning)
+
+Pour le RISC-V en SystemVerilog et implémentation FPGA
+
+Entre le 14 février et le 24 avril : 
+Implémentation RISC-V rudimentaire, sans pipeline
+14 février - 4 mars (lundi) : coder le premier étage du RISC-V (Instruction Fetch) en SystemVerilog
+
+Rester au rythme d'une étape par semaine + consulter fréquemment l’encadrant, donc : 
+4 mars - 11 mars : Instruction Decode
+11 mars - 18 mars : Execute
+18 mars - 25 mars : Memory
+25 mars - 1er avril : Write back
+
+On devrait donc avoir mi-avril une ébauche de RISC-V fonctionnel sans pipeline (pour le moment, on suppose qu’on a cette ébauche à la fin de la séance du 24 avril)
+
+En parallèle de l’encodage en SystemVerilog, faire des schémas du RISC-V sur papier (à l’aide notamment du cours d’INF107) pour voir comme coder efficacement chaque étage
+
+Entre le 24 avril et le 7 mai : 
+Reprise en main du pipelining, implémentation FPGA avec périphériques 
+(Ré)Apprendre comment marche les pipelines, et voir comment l’utiliser dans notre RISC-V
+Implémenter notre RISC-V basique sur FPGA
+tests avec des périphériques par quartus et FPGA
+Entre le 7 mai et le 5 juin :
+Implémentation du pipelining, suite implémentation FPGA
+Implémenter le pipelining sur chaque étage du RISC-V
+Ajouter quelques fonctionnalités avec des périphériques supplémentaires sur le FPGA
+tests de l’implémentation avec des périphériques par quartus et FPGA
+
+On devrait donc finir le RISC-V avec Pipeline sur FPGA le 12 juin
+
+Assembleur
+Comme cette partie du projet est plus distincte des deux autres, ne la commencer que mi-mai, le 15 mai
+Fin de l’assembleur vers la fin du projet, donc mi-juin, le 12 juin
+
+Dernière semaine (24-28 juin)
+Finir l’assembleur s’il n’est pas fini
+Finir et optimiser le RISC-V avec Pipeline, faire des tests
+
+Le planning à long terme reste incertain, et est plutôt optimiste, mais voici les grandes lignes de notre planning que nous essayerons de suivre, avec des mises à jour régulières.
+
+
+La suite est un point de chaque séance, pour voir si on reste dans les temps du planning
+
+Résumé séance par séance 
+Séance du 28 février : Prise en main du SystemVerilog, implémentation rudimentaire de l’étage Instruction Fetch et d’un state counter
